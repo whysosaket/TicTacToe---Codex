@@ -18,7 +18,7 @@ public class MainMenu {
 
 
         //Background
-        JLabel background = new JLabel(new ImageIcon("tictactoe gif.gif"));
+        JLabel background = new JLabel(new ImageIcon("images/tictactoe_gif.gif"));
         background.setLayout(null);
         background.setForeground(Color.gray);
 

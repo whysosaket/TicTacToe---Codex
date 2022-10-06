@@ -14,8 +14,8 @@ import java.awt.event.*;
     JMenuBar mb = new JMenuBar();
     JMenu file;//rs,ex;
     JMenuItem rs,ex;
-    ImageIcon xi = new ImageIcon("blue x.png");
-    ImageIcon oi = new ImageIcon("red o.png");
+    ImageIcon xi = new ImageIcon("blue_x.png");
+    ImageIcon oi = new ImageIcon("red_o.png");
     ImageIcon xi1 = new ImageIcon("red x.png");
     ImageIcon oi2 = new ImageIcon("blue o.png");
     
@@ -211,8 +211,8 @@ public class tictactoe {
 
 		//bok.setBackground(Color.white);
 		f.setLayout(new BorderLayout());
-		JLabel background=new JLabel(new ImageIcon("tictactoe gif.gif"));
-		//f.setForeground(new ImageIcon("tictactoe gif.gif"));
+		JLabel background=new JLabel(new ImageIcon("tictactoe_gif.gif"));
+		//f.setForeground(new ImageIcon("tictactoe_gif.gif"));
 		f.add(background);
 		background.setLayout(null);//new FlowLayout());
 		//l1=new JLabel("Here is a button");
